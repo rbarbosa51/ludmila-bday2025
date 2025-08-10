@@ -14,5 +14,6 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, './src')
     }
-  }
+  },
+  base: 'https://rbarbosa51.github.io/ludmila-bday2025/'
 })
