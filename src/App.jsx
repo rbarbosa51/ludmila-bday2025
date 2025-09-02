@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Home } from "@/pages";
+import { Home, Second } from "@/pages";
 
 export default function App() {
   return (
@@ -7,6 +7,7 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route index path="/ludmila-bday2025/" element={<Home />} />
+          <Route index path="/ludmila-bday2025/second" element={<Second />} />
         </Routes>
       </BrowserRouter>
     </div>
