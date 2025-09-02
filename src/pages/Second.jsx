@@ -12,6 +12,7 @@ export default function Second(){
     useGSAP(() => {
         gsap.fromTo(pageRef.current, {x: '100vw', opacity:0}, {x: '0', opacity: 1, duration: 2})
     }, {scope: containerRef})
+    
     return (
         <div ref={containerRef}>
             <div ref={pageRef} className="relative w-full h-screen flex flex-col justify-center items-center bg-gradient-to-r from-violet-200 to-pink-200">
