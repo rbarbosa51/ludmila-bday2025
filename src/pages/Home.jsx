@@ -14,11 +14,13 @@ export default function Home(){
     }, {scope: containerRef})
     return (
         <div ref={containerRef}>
-            <div ref={pageRef} className="relative overflow-hidden w-full h-screen flex flex-col justify-center items-center font-waterbrush bg-gradient-to-r from-blue-200 to-cyan-200">
-                <h1 className="text-7xl text-red-500">Para mi esposa</h1>
-                <ChevronDown className="absolute bottom-8 text-red-500" size={96} 
-                onClick={() => navigate('/ludmila-bday2025/second')}
-                />
+            <div ref={pageRef} className="overflow-hidden w-full h-screen flex flex-col justify-center items-center font-waterbrush bg-gradient-to-r from-blue-200 to-cyan-200">
+                <div className="flex flex-col gap-24 justify-between items-center">
+                    <h1 className="text-7xl text-red-500">Para mi esposa</h1>
+                    <ChevronDown className="bottom-8 text-red-500" size={96} 
+                    onClick={() => navigate('/ludmila-bday2025/second')}
+                    />
+                </div>
             </div>
         </div>
     )
