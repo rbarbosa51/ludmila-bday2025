@@ -5,6 +5,7 @@
 
 @theme {
   --font-avenir: Avenir, Helvetica, Arial, system-ui, sans-serif;
+  --font-waterbrush: "Water Brush", cursive;
 }
 
 @theme inline {
