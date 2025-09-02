@@ -15,7 +15,7 @@ export default function Home(){
     return (
         <div ref={containerRef}>
             <div ref={pageRef} className="relative w-full h-screen flex flex-col justify-center items-center font-waterbrush bg-gradient-to-r from-blue-200 to-cyan-200">
-                <h1 className="text-7xl text-red-500">No terminado</h1>
+                <h1 className="text-7xl text-red-500">Para mi esposa</h1>
                 <ChevronDown className="absolute bottom-4 text-red-500" size={96} 
                 onClick={() => navigate('/ludmila-bday2025/second')}
                 />
