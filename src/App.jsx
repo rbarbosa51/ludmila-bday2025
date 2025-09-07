@@ -6,13 +6,11 @@ export default function App() {
     <div className="w-full h-screen bg-gradient-to-r from-stone-500 to-stone-700">
       <BrowserRouter>
         <Routes>
-          <Route path="/">
-            <Route path="ludmila-bday2025/">
+           <Route path="/ludmila-bday2025/">
               <Route path="" element={<Home />} />
               <Route path="second" element={<Second />} />
-	      <Route path="third" element={<Third />} />
-            </Route>
-          </Route>
+	            <Route path="third" element={<Third />} />
+           </Route>
           
         </Routes>
       </BrowserRouter>
