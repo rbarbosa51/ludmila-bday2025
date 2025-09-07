@@ -15,5 +15,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     }
   },
-  base: 'https://rbarbosa51.github.io/ludmila-bday2025'
+  base: '/ludmila-bday2025/'
 })
