@@ -11,7 +11,7 @@ export default function App() {
                 </div>
       <BrowserRouter>
         <Routes>
-           <Route path="/ludmila-bday2025/">
+           <Route path={import.meta.env.BASE_URL}>
               <Route path="" element={<Home />} />
               <Route path="second" element={<Second />} />
 	            <Route path="third" element={<Third />} />
